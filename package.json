@@ -5,6 +5,7 @@
   "type": "module",
   "main": "src/server.js",
   "scripts": {
+    "build": "pip install yt-dlp",
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
     "seed": "node src/seed.js"
